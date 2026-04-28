@@ -746,6 +746,11 @@
       .cta-actions { flex-direction: column; align-items: center; }
     }
 
+    /* ─── Icon SVG display ─── */
+    .machine-icon, .trust-icon, .why-flag {
+      display: flex; align-items: center; justify-content: center;
+    }
+
     /* ─── Fade-in animation ─── */
     .fade-up {
       opacity: 0;
@@ -765,7 +770,7 @@
   <div class="container">
     <div class="nav-inner">
       <a href="#" class="nav-logo">
-        <div class="logo-icon">🇹🇷</div>
+        <div class="logo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
         SafeSource Turkey
       </a>
       <ul class="nav-links">
@@ -827,7 +832,7 @@
       <!-- Right: Visual card -->
       <div class="hero-visual">
         <div class="float-badge float-badge-1">
-          ✅ Supplier Verified
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Supplier Verified
         </div>
         <div class="hero-card">
           <div class="hero-card-header">
@@ -841,7 +846,7 @@
                 <div class="step-label">Tell Us What You Need</div>
                 <div class="step-desc">Share your machine requirements & budget</div>
               </div>
-              <span class="step-check">✓</span>
+              <span class="step-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
             </div>
             <div class="process-step active">
               <div class="step-num">2</div>
@@ -849,7 +854,7 @@
                 <div class="step-label">We Find & Verify Suppliers</div>
                 <div class="step-desc">We screen Turkish factories for legitimacy</div>
               </div>
-              <span class="step-check">✓</span>
+              <span class="step-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
             </div>
             <div class="process-step">
               <div class="step-num">3</div>
@@ -868,7 +873,7 @@
           </div>
         </div>
         <div class="float-badge float-badge-2">
-          🚢 Ready to Ship
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Ready to Ship
         </div>
       </div>
     </div>
@@ -910,32 +915,32 @@
     </div>
     <div class="services-grid">
       <div class="service-card fade-up">
-        <div class="service-icon" style="background:#fff0ee;">🔍</div>
+        <div class="service-icon" style="background:#fff0ee;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#e63c26" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
         <div class="service-title">Supplier Verification</div>
         <div class="service-desc">We vet every Turkish manufacturer before you talk to them — confirming business registration, production capacity, and track record to eliminate fraud risk.</div>
       </div>
       <div class="service-card fade-up">
-        <div class="service-icon" style="background:#eff6ff;">📋</div>
+        <div class="service-icon" style="background:#eff6ff;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></div>
         <div class="service-title">Quotation Comparison</div>
         <div class="service-desc">We collect multiple competitive quotes from verified factories and present a clear comparison so you can make a confident, cost-effective decision.</div>
       </div>
       <div class="service-card fade-up">
-        <div class="service-icon" style="background:#f0fdf4;">🏭</div>
+        <div class="service-icon" style="background:#f0fdf4;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v8h4"/><path d="M18 9h2a2 2 0 0 1 2 2v11h-4"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></div>
         <div class="service-title">Factory Visits</div>
         <div class="service-desc">When a large purchase is on the line, we arrange and accompany in-person factory inspections in Turkey on your behalf — so you see exactly what you're buying.</div>
       </div>
       <div class="service-card fade-up">
-        <div class="service-icon" style="background:#fffbeb;">💬</div>
+        <div class="service-icon" style="background:#fffbeb;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <div class="service-title">Communication Bridge</div>
         <div class="service-desc">Language and cultural barriers slow deals. We act as your professional Turkish-English intermediary, ensuring nothing is lost in translation.</div>
       </div>
       <div class="service-card fade-up">
-        <div class="service-icon" style="background:#fdf4ff;">🚢</div>
+        <div class="service-icon" style="background:#fdf4ff;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#9333ea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg></div>
         <div class="service-title">Shipping &amp; Logistics</div>
         <div class="service-desc">We coordinate sea-freight and customs documentation from Turkey to your port in Africa, working with trusted freight forwarders for smooth delivery.</div>
       </div>
       <div class="service-card fade-up">
-        <div class="service-icon" style="background:#f0fdfa;">🛡️</div>
+        <div class="service-icon" style="background:#f0fdfa;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <div class="service-title">Payment Safety Guidance</div>
         <div class="service-desc">We advise on secure payment structures (LC, escrow, staged payments) so your money is always protected until goods are confirmed.</div>
       </div>
@@ -954,7 +959,7 @@
     <div class="how-steps">
       <div class="how-step fade-up">
         <div class="how-step-circle">
-          📝
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
           <div class="how-step-num">1</div>
         </div>
         <div class="how-step-title">Submit Your Requirements</div>
@@ -962,7 +967,7 @@
       </div>
       <div class="how-step fade-up">
         <div class="how-step-circle">
-          🔎
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <div class="how-step-num">2</div>
         </div>
         <div class="how-step-title">We Source &amp; Verify</div>
@@ -970,7 +975,7 @@
       </div>
       <div class="how-step fade-up">
         <div class="how-step-circle">
-          📊
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
           <div class="how-step-num">3</div>
         </div>
         <div class="how-step-title">You Review &amp; Decide</div>
@@ -978,7 +983,7 @@
       </div>
       <div class="how-step fade-up">
         <div class="how-step-circle">
-          ✅
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
           <div class="how-step-num">4</div>
         </div>
         <div class="how-step-title">Order &amp; Ship</div>
@@ -1003,47 +1008,47 @@
       </div>
       <div class="machines-grid fade-up">
         <div class="machine-card">
-          <div class="machine-icon">📦</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="16.5" y1="9.4" x2="7.55" y2="4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
           <div class="machine-name">Flow Wrap &amp; Pillow Pack Machines</div>
           <div class="machine-tag">Packaging</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🍪</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
           <div class="machine-name">Biscuit &amp; Cookie Production Lines</div>
           <div class="machine-tag">Food Processing</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🍟</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></div>
           <div class="machine-name">Snack &amp; Chips Frying Lines</div>
           <div class="machine-tag">Food Processing</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🥤</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
           <div class="machine-name">Sachet &amp; Liquid Filling Machines</div>
           <div class="machine-tag">Packaging</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🌾</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
           <div class="machine-name">Grain &amp; Flour Milling Equipment</div>
           <div class="machine-tag">Processing</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🧴</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg></div>
           <div class="machine-name">Bottle &amp; Container Fill-Seal Lines</div>
           <div class="machine-tag">Packaging</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🥩</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg></div>
           <div class="machine-name">Meat Processing &amp; Sausage Lines</div>
           <div class="machine-tag">Food Processing</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🏷️</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
           <div class="machine-name">Labelling &amp; Coding Machines</div>
           <div class="machine-tag">Packaging</div>
         </div>
         <div class="machine-card">
-          <div class="machine-icon">🍫</div>
+          <div class="machine-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0a1628" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
           <div class="machine-name">Chocolate &amp; Candy Production</div>
           <div class="machine-tag">Food Processing</div>
         </div>
@@ -1058,7 +1063,7 @@
     <div class="why-grid">
       <div class="why-visual fade-up">
         <div class="why-main-card">
-          <div class="why-flag">🇹🇷</div>
+          <div class="why-flag"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
           <div class="why-card-title">Turkey: Africa's Smartest Sourcing Decision</div>
           <div class="why-card-desc">Turkish manufacturers deliver European-grade quality at a fraction of German or Italian prices — and they're actively expanding into African markets.</div>
           <div class="why-stats-row">
@@ -1086,28 +1091,28 @@
         <h2 class="section-heading" style="margin-bottom:32px;">Why African Businesses<br>Are Turning to Turkey</h2>
         <div class="why-points">
           <div class="why-point">
-            <div class="why-point-icon" style="background:#fff0ee;">💰</div>
+            <div class="why-point-icon" style="background:#fff0ee;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e63c26" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
             <div>
               <div class="why-point-title">Competitive Pricing, No Quality Compromise</div>
               <div class="why-point-desc">Turkish machines are priced 30–50% below German or Italian equivalents while meeting the same CE-certified standards — ideal for businesses scaling on a budget.</div>
             </div>
           </div>
           <div class="why-point">
-            <div class="why-point-icon" style="background:#eff6ff;">🔧</div>
+            <div class="why-point-icon" style="background:#eff6ff;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
             <div>
               <div class="why-point-title">Easy Parts &amp; Service Availability</div>
               <div class="why-point-desc">Turkish manufacturers maintain strong after-sales support. Spare parts are affordable and widely available, unlike some Asian alternatives.</div>
             </div>
           </div>
           <div class="why-point">
-            <div class="why-point-icon" style="background:#f0fdf4;">🤝</div>
+            <div class="why-point-icon" style="background:#f0fdf4;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
             <div>
               <div class="why-point-title">Custom Production Friendly</div>
               <div class="why-point-desc">Most Turkish factories accept small-to-medium orders and are open to customising machines to your specific production requirements and voltage standards.</div>
             </div>
           </div>
           <div class="why-point">
-            <div class="why-point-icon" style="background:#fffbeb;">✈️</div>
+            <div class="why-point-icon" style="background:#fffbeb;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></div>
             <div>
               <div class="why-point-title">Strategic Location — Fast Shipping</div>
               <div class="why-point-desc">Turkey's proximity to Africa means shorter sea freight transit times compared to China, typically 2–4 weeks to most African ports.</div>
@@ -1129,32 +1134,32 @@
     </div>
     <div class="trust-grid">
       <div class="trust-card fade-up">
-        <div class="trust-icon">🛡️</div>
+        <div class="trust-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <div class="trust-title">No Payment Until You're Ready</div>
         <div class="trust-desc">We never rush you into paying. Our process ensures you have verified supplier details, signed contracts, and clear delivery terms before any money moves.</div>
       </div>
       <div class="trust-card fade-up">
-        <div class="trust-icon">🔎</div>
+        <div class="trust-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
         <div class="trust-title">Background-Checked Suppliers</div>
         <div class="trust-desc">Every supplier in our network has passed our multi-point verification including trade register checks, physical address confirmation, and reference calls.</div>
       </div>
       <div class="trust-card fade-up">
-        <div class="trust-icon">📝</div>
+        <div class="trust-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#9333ea" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
         <div class="trust-title">Contract Support</div>
         <div class="trust-desc">We help you review and negotiate supplier contracts with clear clauses for delivery timelines, machine specifications, and penalty terms for non-compliance.</div>
       </div>
       <div class="trust-card fade-up">
-        <div class="trust-icon">🌍</div>
+        <div class="trust-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#e63c26" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <div class="trust-title">On-the-Ground Presence</div>
         <div class="trust-desc">We have local contacts in Turkey who can physically inspect production progress and confirm machines are built to spec before shipment.</div>
       </div>
       <div class="trust-card fade-up">
-        <div class="trust-icon">💬</div>
+        <div class="trust-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <div class="trust-title">Always Available</div>
         <div class="trust-desc">Your dedicated sourcing consultant is available via WhatsApp throughout the entire process — from first inquiry to final machine delivery.</div>
       </div>
       <div class="trust-card fade-up">
-        <div class="trust-icon">📦</div>
+        <div class="trust-icon"><svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="16.5" y1="9.4" x2="7.55" y2="4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
         <div class="trust-title">Shipment Tracking</div>
         <div class="trust-desc">We provide real-time shipping updates from the Turkish port to your destination, so you always know exactly where your machine is.</div>
       </div>
@@ -1179,9 +1184,9 @@
         </a>
       </div>
       <div class="cta-reassurance">
-        <span>🆓 Free initial consultation</span>
-        <span>⚡ Response within 24 hours</span>
-        <span>🔒 No obligation</span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg> Free initial consultation</span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Response within 24 hours</span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> No obligation</span>
       </div>
     </div>
   </div>
@@ -1192,7 +1197,7 @@
   <div class="container">
     <div class="footer-inner">
       <div class="footer-logo">
-        <div class="logo-icon" style="background:var(--red);border-radius:8px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;">🇹🇷</div>
+        <div class="logo-icon" style="background:var(--red);border-radius:8px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
         SafeSource Turkey
       </div>
       <nav class="footer-links">
